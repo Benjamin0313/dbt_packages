@@ -11,9 +11,9 @@
 
 with source_data as (
 
-    select 1 as id
+    select 1 as id, '2024-01-01'::date as date
     union all
-    select null as id
+    select null as id, '2024-01-02'::date as date
 
 )
 
